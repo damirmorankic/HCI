@@ -1,0 +1,62 @@
+body{
+    position: absolute;
+    background-color: #d4f8ff;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;
+    
+
+}
+html{
+    background-color: #d4f8ff;
+    height:900px;
+       
+}
+.logo{
+    height: 130px;
+    width: 130px;
+}
+#wrapper{
+    height: 500px;
+    width: 1450px;
+    background-image: url("./life-journey-travel-balance-destination-trip-concept-78545555.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    margin: 3%;
+    /* padding-left: 10px; */
+    border-radius: 25px;
+    position: absolute;
+
+    
+
+}
+#loginDugme{
+  
+    position: relative;
+    right: 50px;
+    top: 50px;
+    margin-top: 9px;
+    display: inline;
+    position: absolute;
+
+    
+  }
+  #resetPw{
+   
+    color: black;
+    background: none;border:none; 
+  }
+.navBar{
+    display: inline;
+}
+#search{
+    background-color: white;
+    border-radius: 25px;
+    background-color: white;
+    width: 500px;
+    position: relative;
+    top:200px;
+    left:470px;
+    padding: 1%;
+}
+
