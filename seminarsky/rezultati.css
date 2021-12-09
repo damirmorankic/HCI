@@ -1,0 +1,210 @@
+body{
+    position: absolute;
+    background-color: #d4f8ff;
+    height: 1000px;
+    width: 100%;
+    overflow-x: hidden;
+    padding: 5%;
+}
+#wrapper{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    border-radius: 25px;
+    position: relative;
+    top: -80px;
+    
+}
+#lijevi{
+    float: left;
+    width: 57%;
+    height: 100%;
+}
+#desni{
+    float: left;
+    width: 43%;
+    height: 100%;
+    background-color: whitesmoke;
+    border-radius: 0 25px 25px 0;
+}
+#gornji{
+    height: 15%;
+    width: 100%;
+    background-color: #f2f2f2;
+    border-radius: 25px 0 0 0;
+}
+.test{
+    height: 100%;
+    width: 20%;
+    float: left;
+    /* display: inline; */
+}
+#donji{
+    height: 85%;
+    width: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+#lokacija{
+    /* background-color: #181515; */
+    height: 100%;
+    width: 100%;
+    /* display: inline; */
+    float: left;
+    position: relative;
+    top: 20px;
+    left: 20px;
+    /* border: 1px solid red; */
+
+}
+#label{
+    display: inline;
+    color: #7a7a7a;
+    position: relative;
+    left: 30px;
+    top: 10px;
+
+}
+
+#lokIkonica{
+    position: relative;
+    left: 52px;
+    top: 10px;
+}
+#pocetniDatum{
+    /* display: inline; */
+    position: relative;
+    float: left;
+
+    top: -52px;
+    left: 140px;
+}
+#pocDatIkonica{
+    position: relative;
+    left: 40px;
+    top: 11px;
+}
+#sadrzajPocDat{
+    width: 100px;
+    height: 37px;
+    position: relative;
+    top: 11px;
+}
+.box {
+    display: inline-block;
+    position: relative;
+    top:10px;
+    left:20px;
+    width: 90px;
+    word-wrap: break-word;
+    
+    
+}
+#label2{
+    display: inline;
+    color: #7a7a7a;
+    position: relative;
+    top: 11px;
+}
+#txtLok{
+    width: 100px;
+    height: 23px;
+    position: relative;
+    top: 11px;
+}
+#txtBrOs{
+    width: 90px;
+    height: 23px;
+    position: relative;
+    top: 9px;
+}
+#rezultat{
+    width: 100%;
+    height: 170px;
+
+   
+}
+#slika{
+    width: 30%;
+    height: 140px;
+    
+    position: relative;
+    top: 13px;
+    left: 15px;
+    border-radius: 25px;
+}
+#naslov{
+    width: 45%;
+    height: 40px;
+    position: relative;
+    top: -120px;
+    left: 280px;
+    word-wrap: break-word;
+    font-size: larger;
+    font-weight: bold;
+    font-family:'Times New Roman', Times, serif;
+
+    /* display: inline-block; */
+}
+#adresa{
+    width: 45%;
+    height: 50px;
+    position: relative;
+    top: -100px;
+    left: 280px;
+    font-family:'Times New Roman', Times, serif;
+    color: #a8a8a8;
+}
+#cijena{
+    height: 60px;
+    width: 8%;
+    position: relative;
+    top: -210px;
+    left: 640px;
+    font-family:'Times New Roman', Times, serif;
+    color: #fabd4b;
+    text-align: center;
+
+}
+#zaNoc{
+    color:#b8b8b8;
+    font-family:'Times New Roman', Times, serif;
+    position: relative;
+    top: -225px;
+    left: 650px;
+}
+#brSoba{
+    height: 23px;
+    width: 100px;
+    position: relative;
+    left:280px;
+    top: -180px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+#kvadrata{
+    height: 23px;
+    width: 40px;
+    position: relative;
+    left:390px;
+    top: -203px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+#brGostiju{
+    height: 23px;
+    width: 120px;
+    position: relative;
+    left:440px;
+    top: -226px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.logo{
+    height: 120px;
+    width: 110px;
+    position: relative;
+    top: -80px;
+    left: -60px;
+    z-index: -1;
+}
